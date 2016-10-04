@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "linebreak-style": 0,
+    "comma-dangle": [2,"always-multiline"],
+    "max-len": [2, 120],
+    "indent": [2, 4, {"SwitchCase": 1, "VariableDeclarator": 1, "outerIIFEBody": 1}],
+    "no-restricted-syntax": [2, "DebuggerStatement", "LabeledStatement", "WithStatement"],
+    "arrow-body-style": 1,
+    "react/jsx-indent": [2, 4],
+    "react/jsx-filename-extension": [2, { "extensions": [".jsx", ".js"] }],
+    "react/jsx-indent-props": [2, 4],
+    "react/prefer-stateless-function": 0,
+    "react/jsx-no-bind": 1
+  }
+}
